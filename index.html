@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Youth Camp Fundraiser RSVP</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+  <h1 class="title-red">YOUTH CAMP</h1>
+  <h1 class="title-black">FUNDRAISER</h1>
+
+  <p class="event-info">May 16, 2026 • 5:00 PM</p>
+
+  <div class="card">
+    <h2>RSVP</h2>
+
+    <form id="rsvpForm">
+      <label>How many people are attending?</label>
+      <input type="number" name="people" required min="1">
+
+      <label>How many children under age 8?</label>
+      <input type="number" name="children" required min="0">
+
+      <button type="submit">Submit RSVP</button>
+    </form>
+
+    <p id="successMessage"></p>
+  </div>
+
+  <p class="footer">700 E Sunset Dr | Monroe</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
